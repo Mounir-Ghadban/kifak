@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kifak voice-typing service: provides the system accessibility shortcut
+     (corner button) and pastes the transcription into the focused text field.
+     The ONLY window content it ever touches is the focused editable node. -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagRequestAccessibilityButton"
+    android:notificationTimeout="0"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/accessibility_service_description"
+    android:summary="@string/accessibility_service_summary" />

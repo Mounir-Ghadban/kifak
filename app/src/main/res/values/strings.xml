@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Kifak</string>
+    <string name="accessibility_service_label">Kifak voice typing</string>
+    <string name="accessibility_service_summary">Voice-type into any app</string>
+    <string name="accessibility_service_description">Adds a voice button to the accessibility shortcut. Tap it in any app (WhatsApp, Messages, browser): first tap records your voice, second tap stops, and the Levantine transcription is pasted at the cursor in Arabizi. Kifak reads nothing from your screen except the text field you are typing in, and only to paste your own transcription into it.</string>
+</resources>
