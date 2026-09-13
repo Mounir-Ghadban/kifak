@@ -15,6 +15,14 @@ Built on [whisper.cpp](https://github.com/ggerganov/whisper.cpp) and its
 The model is a community fine-tune of Whisper-Small on Levantine dialect
 (based on [Laith05/whisper-levantine](https://huggingface.co/Laith05/whisper-levantine)).
 
+## Demo
+
+![Kifak voice-typing demo](docs/demo.gif)
+
+*A 10-second demo: tap the floating accessibility button in any chat, speak
+Lebanese Arabic, tap again — the Arabizi transcription is pasted at the
+cursor. 100% on-device, no internet used at inference time.*
+
 ## Model download (first launch)
 
 The APK is tiny (~35 MB) because the model is **not** bundled. On first launch
