@@ -23,6 +23,10 @@ The model is a community fine-tune of Whisper-Small on Levantine dialect
 Lebanese Arabic, tap again — the Arabizi transcription is pasted at the
 cursor. 100% on-device, no internet used at inference time.*
 
+## Screenshot
+
+![Kifak app UI](docs/screenshot.png)
+
 ## Model download (first launch)
 
 The APK is tiny (~35 MB) because the model is **not** bundled. On first launch
