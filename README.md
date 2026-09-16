@@ -33,10 +33,6 @@ The APK is tiny (~35 MB) because the model is **not** bundled. On first launch
 the app downloads **`ggml-small-levantine-q5_1.bin`** (~190 MB, q5_1 quantized)
 from Hugging Face into private app storage and reuses it forever after.
 
-> **Accuracy note:** q5_1 is the functional public tier — measured at ~63% WER
-> on Lebanese conversational audio (vs ~44% for the q8_0 quantization of the
-> same fine-tune). It mishears more, but it works, it's private, and it's fast.
-
 The app expects the file at the URL in
 `app/src/main/java/com/whispercppdemo/LevantineModel.kt` (`MODEL_URL`).
 Host your own GGML conversion and point that constant at it if you prefer.
